@@ -1,0 +1,75 @@
+/* General Reset */
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; text-align: center; }
+
+/* Header */
+.header-image { width: 100%; height: auto; display: block; }
+
+/* Navbar */
+.navbar { background: #333; padding: 10px; }
+.navbar ul { list-style: none; padding: 0; }
+.navbar ul li { display: inline; margin: 0 15px; }
+.navbar ul li a { color: white; text-decoration: none; font-weight: bold; }
+
+/* Founder Image Styling */
+.founder-img {
+    width: 250px;           /* Image ka size control karta hai */
+    height: 250px;          /* Width aur height barabar ho to circle banta hai */
+    border-radius: 50%;     /* Ye code image ko circle mein badal deta hai */
+    object-fit: cover;      /* Image ko stretch hone se bachata hai */
+    margin: 20px 0;
+}
+/* Founder Name */
+.bio-data h3 {
+    font-size: 40px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #000;
+}
+
+/* Designation Subtitle */
+.bio-data p {
+    font-size: 40px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+/* Designation List */
+.bio-data ul { 
+    list-style: none; 
+    padding: 0; 
+    line-height: 1.8;
+    font-size: 18px; 
+}
+/* Gallery */
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.gallery img {
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+    border: 2px solid #ccc;
+}
+/* Gallery */
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.gallery img {
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+    border: 2px solid #ccc;
+}
+/* Footer */
+footer { background: #222; color: white; padding: 20px; margin-top: 30px; }

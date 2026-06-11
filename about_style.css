@@ -1,0 +1,16 @@
+/* About Page Styling */
+
+/* Headings ka rang Dark Green */
+h1, h2 {
+    color: #006400; /* Dark Green color */
+}
+
+/* Contact Section ka rang Red */
+.contact-section {
+    margin-top: 40px;
+    padding: 20px;
+    border-top: 2px solid #ff0000; /* Red border */
+    color: #000; /* Red text color */
+    font-size: 18px;
+    font-weight: bold;
+}
