@@ -1,0 +1,26 @@
+/* Gallery Container - Grid Layout */
+.gallery-container {
+    display: grid;
+    /* Yeh screen size ke hisaab se columns khud adjust karega (Responsive) */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px; /* Images ke darmyan fasla */
+    padding: 20px;
+    background-color: #f4f4f4; /* Optional: Halka sa background color */
+}
+
+/* Individual Image Styling */
+.image-card img {
+    width: 100%;
+    height: 200px; /* Sab images ko ek jaisi height dene ke liye */
+    object-fit: cover; /* Image stretch na ho, balke box mein fit ho jaye */
+    border-radius: 8px; /* Corners ko thoda gol (round) karne ke liye */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Halka sa shadow effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animation smooth karne ke liye */
+}
+
+/* Hover Effect - Jab mouse image par aaye */
+.image-card img:hover {
+    transform: scale(1.05); /* Image thodi si zoom in hogi */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Shadow thoda deep ho jayega */
+    cursor: pointer; /* Mouse ka nishan pointer ban jayega */
+}
